@@ -1,0 +1,73 @@
+@font-face {
+	src: url(nk57-monospace-sc-lt.ttf);
+	font-family: nk57_monospace_sc;
+	font-weight: 100;
+	font-style: italic;
+}
+@font-face {
+	src: url(nk57-monospace-sc-bk.ttf);
+	font-family: nk57_monospace_sc;
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	src: url(nk57-monospace-sc-rg.ttf);
+	font-family: nk57_monospace_sc;
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	src: url(nk57-monospace-sc-sb.ttf);
+	font-family: nk57_monospace_sc;
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	src: url(nk57-monospace-sc-bd.ttf);
+	font-family: nk57_monospace_sc;
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	src: url(nk57-monospace-sc-eb.ttf);
+	font-family: nk57_monospace_sc;
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	src: url(nk57-monospace-sc-lt-it.ttf);
+	font-family: nk57_monospace_sc;
+	font-weight: 100;
+	font-style: italic;
+}
+@font-face {
+	src: url(nk57-monospace-sc-bk-it.ttf);
+	font-family: nk57_monospace_sc;
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	src: url(nk57-monospace-sc-rg-it.ttf);
+	font-family: nk57_monospace_sc;
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	src: url(nk57-monospace-sc-sb-it.ttf);
+	font-family: nk57_monospace_sc;
+	font-weight: 600;
+	font-style: italic;
+}
+@font-face {
+	src: url(nk57-monospace-sc-bd-it.ttf);
+	font-family: nk57_monospace_sc;
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	src: url(nk57-monospace-sc-eb-it.ttf);
+	font-family: nk57_monospace_sc;
+	font-weight: 900;
+	font-style: italic;
+}
