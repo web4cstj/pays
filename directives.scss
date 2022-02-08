@@ -19,18 +19,18 @@ a {
 	text-decoration: inherit;
 }
 *.del {
-    text-decoration: line-through;
-    opacity: 0.3;
+	text-decoration: line-through;
+	opacity: 0.3;
 }
 *.etapes {
 	display: flex;
 	flex-direction: column;
 	& > div {
 		display: flex;
-		border:1px solid black;
+		border: 1px solid black;
 		border-radius: 0.5em;
-		margin: .5em 0;
-		padding: .5em;
+		margin: 0.5em 0;
+		padding: 0.5em;
 		& > * {
 			flex: 1 1 auto;
 		}
@@ -39,9 +39,9 @@ a {
 			flex: 0 0 auto;
 			& > a {
 				background-color: black;
-				width:7ch;
-				height:7ch;
-				display:flex;
+				width: 7ch;
+				height: 7ch;
+				display: flex;
 				text-align: center;
 				align-items: center;
 				justify-content: center;
@@ -51,52 +51,53 @@ a {
 				font-weight: bold;
 				box-sizing: border-box;
 				line-height: 1em;
-				padding-top: .2em;
+				padding-top: 0.2em;
 				&:hover {
-					color:yellow;
+					color: yellow;
 					background-color: #330;
 				}
 			}
 		}
 	}
 }
-div.code, code {
+div.code,
+code {
 	font-family: nk57_monospace_cd, monospace;
-//	font-family: monospace;
+	//	font-family: monospace;
 }
 div.code {
 	background-color: #eeeeee;
 	padding: 1em;
 	display: none;
-	font-size: .9em;
+	font-size: 0.9em;
 	border-radius: 5px;
 	& > div {
 		white-space: pre;
-		&:nth-child(odd) {
-//			background-color: rgba(0,0,0,.05);
-		}
+		// &:nth-child(odd) {
+			//			background-color: rgba(0,0,0,.05);
+		// }
 	}
 }
 span.s0 {
 	color: #000000;
 }
 span.s1 {
-	color: #0000BB;
+	color: #0000bb;
 }
 span.s2 {
 	color: #007700;
 }
 span.s3 {
-	color: #DD0000;
+	color: #dd0000;
 }
 span.s4 {
-	color: #FF8000;
+	color: #ff8000;
 }
 input.afficher {
-	display:none;
+	display: none;
 }
 input.afficher {
-	&+label {
+	& + label {
 		float: right;
 		margin-left: 0.25em;
 		order: 1;
@@ -108,22 +109,22 @@ input.afficher {
 		line-height: 1;
 		flex: 0 0 auto;
 		border-radius: 3px;
-		background-color: #EEE;
-		color:white;
+		background-color: #eee;
+		color: white;
 		align-self: flex-end;
 		&:hover {
-			background-color: #CEC;
+			background-color: #cec;
 		}
-		&[for=afficher_tout] {
-//			float: none;
-		}
-
+		// &[for="afficher_tout"] {
+			//			float: none;
+		// }
 	}
-	&:checked+label {
-		color:darkgreen;
+	&:checked + label {
+		color: darkgreen;
 	}
 }
-input.afficher:checked ~ div.code, input.afficher:checked ~ * div.code {
+input.afficher:checked ~ div.code,
+input.afficher:checked ~ * div.code {
 	display: block;
 }
 div.enonce {
