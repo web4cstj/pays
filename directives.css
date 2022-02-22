@@ -27,63 +27,39 @@ a {
 }
 
 *.etapes {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 *.etapes > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   border: 1px solid black;
   border-radius: 0.5em;
   margin: 0.5em 0;
   padding: 0.5em;
 }
-
 *.etapes > div > * {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  flex: 1 1 auto;
 }
-
 *.etapes > div > *:first-child {
   margin-right: 0.5ch;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  flex: 0 0 auto;
 }
-
 *.etapes > div > *:first-child > a {
   background-color: black;
   width: 7ch;
   height: 7ch;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
   border-radius: 100%;
   color: white;
   font-weight: bold;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   line-height: 1em;
   padding-top: 0.2em;
 }
-
 *.etapes > div > *:first-child > a:hover {
   color: yellow;
   background-color: #330;
@@ -101,7 +77,6 @@ div.code {
   font-size: 0.9em;
   border-radius: 5px;
 }
-
 div.code > div {
   white-space: pre;
 }
@@ -133,35 +108,22 @@ input.afficher {
 input.afficher + label {
   float: right;
   margin-left: 0.25em;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  order: 1;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 1.2em;
   height: 1.2em;
   line-height: 1;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  flex: 0 0 auto;
   border-radius: 3px;
   background-color: #eee;
   color: white;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
 }
-
 input.afficher + label:hover {
   background-color: #cec;
 }
-
 input.afficher:checked + label {
   color: darkgreen;
 }
@@ -174,7 +136,6 @@ input.afficher:checked ~ * div.code {
 div.enonce {
   font-size: 1.2em;
 }
-
 div.enonce code {
   font-size: 1em;
   color: #996300;
@@ -182,5 +143,4 @@ div.enonce code {
 
 tr {
   vertical-align: top;
-}
-/*# sourceMappingURL=directives.css.map */
+}/*# sourceMappingURL=directives.css.map */

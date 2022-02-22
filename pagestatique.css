@@ -24,23 +24,20 @@ div.interface {
     background-size: 100%, auto;
     background-attachment: fixed, scroll;
   }
+
   div.interface {
-    -webkit-box-shadow: 0 0 1em black;
-            box-shadow: 0 0 1em black;
+    box-shadow: 0 0 1em black;
     padding: 0.5in;
     background: white;
   }
 }
-
 @media print {
   a {
     color: inherit;
     text-decoration: inherit;
   }
 }
-
 @page {
   size: 8.5in 11in;
   margin: 0.5in;
-}
-/*# sourceMappingURL=pagestatique.css.map */
+}/*# sourceMappingURL=pagestatique.css.map */
